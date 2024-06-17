@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://standards.buildingsmart.org/IDS">
+  <info>
+    <title>Мой документ / My document</title>
+    <version>0.9.6</version>
+  </info>
+  <specifications>
+    <specification name="Спецификация / Specification" ifcVersion="IFC4" minOccurs="1" maxOccurs="unbounded">
+      <applicability>
+        <entity>
+          <name>
+            <simpleValue>IFCALARM</simpleValue>
+          </name>
+        </entity>
+        <attribute>
+          <name>
+            <xs:restriction base="xs:string">
+              <xs:pattern value="thfh" />
+            </xs:restriction>
+          </name>
+          <value>
+            <simpleValue>6</simpleValue>
+          </value>
+        </attribute>
+      </applicability>
+      <requirements />
+    </specification>
+  </specifications>
+</ids>

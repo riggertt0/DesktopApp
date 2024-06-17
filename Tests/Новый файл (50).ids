@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://standards.buildingsmart.org/IDS">
+  <info>
+    <title>Мой документ / My document</title>
+    <version>0.9.6</version>
+  </info>
+  <specifications>
+    <specification name="Спецификация / Specification" ifcVersion="IFC4" minOccurs="1" maxOccurs="unbounded">
+      <applicability>
+        <entity>
+          <name>
+            <xs:restriction>
+              <xs:pattern value="sfsfd" />
+            </xs:restriction>
+          </name>
+          <predefinedType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="asf" />
+              <xs:enumeration value="rthu" />
+              <xs:enumeration value="yk" />
+            </xs:restriction>
+          </predefinedType>
+        </entity>
+      </applicability>
+      <requirements>
+        <entity minOccurs="1" maxOccurs="1">
+          <name>
+            <xs:restriction>
+              <xs:length value="44" />
+            </xs:restriction>
+          </name>
+        </entity>
+      </requirements>
+    </specification>
+  </specifications>
+</ids>

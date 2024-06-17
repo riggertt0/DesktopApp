@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://standards.buildingsmart.org/IDS">
+  <info>
+    <title>Мой документ / My document</title>
+    <version>0.9.6</version>
+  </info>
+  <specifications>
+    <specification name="test9" ifcVersion="IFC4" minOccurs="1" maxOccurs="unbounded">
+      <applicability>
+        <attribute>
+          <name>
+            <simpleValue>asd</simpleValue>
+          </name>
+          <value>
+            <xs:restriction base="xs:decimal">
+              <xs:enumeration value="asda" />
+              <xs:enumeration value="abbbb" />
+              <xs:enumeration value="ddfgdfh" />
+            </xs:restriction>
+          </value>
+        </attribute>
+      </applicability>
+    </specification>
+  </specifications>
+</ids>

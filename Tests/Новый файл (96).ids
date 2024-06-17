@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://standards.buildingsmart.org/IDS">
+  <info>
+    <title>Мой документ / My document</title>
+    <version>0.9.6</version>
+  </info>
+  <specifications>
+    <specification name="Спецификация / Specification" ifcVersion="IFC4" minOccurs="1" maxOccurs="unbounded">
+      <applicability>
+        <property datatype="datatype">
+          <propertySet>
+            <simpleValue>property set</simpleValue>
+          </propertySet>
+          <name>
+            <simpleValue>propertyname?</simpleValue>
+          </name>
+          <value>
+            <xs:restriction base="xs:integer">
+              <xs:minInclusive value="55" />
+              <xs:maxInclusive value="36346" />
+            </xs:restriction>
+          </value>
+        </property>
+      </applicability>
+      <requirements />
+    </specification>
+  </specifications>
+</ids>

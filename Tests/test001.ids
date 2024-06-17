@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://standards.buildingsmart.org/IDS">
+  <info>
+    <title>Мой документ / My document</title>
+    <version>0.9.6</version>
+  </info>
+  <specifications>
+    <specification name="test1" ifcVersion="IFC4" minOccurs="1" maxOccurs="unbounded">
+      <applicability>
+        <entity>
+          <name>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="IFCACTUATORTYPE" />
+              <xs:enumeration value="IFCAIRTOAIRHEATRECOVERY" />
+              <xs:enumeration value="IFCACTUATORTYPE" />
+              <xs:enumeration value="IFCBOUNDARYFACECONDITION" />
+              <xs:enumeration value="IFCCABLEFITTING" />
+              <xs:enumeration value="IFCCOMPRESSOR" />
+            </xs:restriction>
+          </name>
+        </entity>
+      </applicability>
+    </specification>
+  </specifications>
+</ids>

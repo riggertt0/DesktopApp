@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://standards.buildingsmart.org/IDS">
+  <info>
+    <title>Мой документ / My document</title>
+    <version>0.9.6</version>
+  </info>
+  <specifications>
+    <specification name="Спецификация2 / Specification" ifcVersion="IFC4" minOccurs="1" maxOccurs="unbounded">
+      <applicability>
+        <property datatype="ehge">
+          <propertySet>
+            <simpleValue>sf</simpleValue>
+          </propertySet>
+          <name>
+            <xs:restriction>
+              <xs:enumeration value="weg" />
+              <xs:enumeration value="ttj" />
+              <xs:enumeration value="yukum" />
+            </xs:restriction>
+          </name>
+          <value>
+            <xs:restriction base="xs:decimal">
+              <xs:minInclusive value="33" />
+              <xs:maxExclusive value="777" />
+            </xs:restriction>
+          </value>
+        </property>
+      </applicability>
+      <requirements />
+    </specification>
+  </specifications>
+</ids>

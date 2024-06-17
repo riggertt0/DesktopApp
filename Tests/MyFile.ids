@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ids>
+    <info>
+        <title></title>
+        <copyright>buildingSMART International Ltd</copyright>
+        <date></date>
+    </info>
+    <specifications>
+        <specification name="Specification name" ifcVersion="IFC4" minOccurs="no" maxOccurs="no">
+            <applicability>
+                <entity>
+                    <name>
+                        <simpleValue>IfcSpace</simpleValue>
+                    </name>
+                    <predefinedType>
+                        <simpleValue>asdasd</simpleValue>
+                    </predefinedType>
+                </entity>
+                <partOf>
+                    <entity>
+                        <name>
+                            <simpleValue>qwdqwd</simpleValue>
+                        </name>
+                        <predefinedType>
+                            <simpleValue>wfwefsdg</simpleValue>
+                        </predefinedType>
+                    </entity>
+                </partOf>
+                <property datatype="IfcLabel">
+                    <propertySet>
+                        <simpleValue>asdasd</simpleValue>
+                    </propertySet>
+                    <name>
+                        <simpleValue>sfdsdgfs</simpleValue>
+                    </name>
+                    <value>
+                        <simpleValue>qwdqwdqd</simpleValue>
+                    </value>
+                </property>
+            </applicability>
+            <requirements/>
+        </specification>
+    </specifications>
+</ids>
